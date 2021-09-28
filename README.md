@@ -14,13 +14,13 @@ As a pre-processing step, the input array is sorted according to x coordinates.
 ```
 ## Time Complexity
 
-T(n) = 2T(n/2) + O(n) + O(nLogn) + O(n)
-T(n) = 2T(n/2) + O(nLogn)
-T(n) = T(n x Logn x Logn)
+T(n) = 2T(n/2) + O(n) + O(nLogn) + O(n) <br/><br/>
+T(n) = 2T(n/2) + O(nLogn) <br/><br/>
+T(n) = T(n x Logn x Logn) <br/><br/>
 
 
 ## Examples
-p1 {5, 3}, p2 {12, 3}, p3 {43, 50}, p4 {5, 11}, p5 {2, 10}, p6 {3, 4} = 2.236068
+p1 {5, 3}, p2 {12, 3}, p3 {43, 50}, p4 {5, 11}, p5 {2, 10}, p6 {3, 4} = 2.236068 <br/><br/>
 ![Result1](https://github.com/shazaalqays/Divide-and-Conquer-in-C/blob/main/images/6_points.jpg)<br/><br/>
-p1 {3, 6}, p2 {10, 9}, p3{23, 40} = 7.615773
+p1 {3, 6}, p2 {10, 9}, p3{23, 40} = 7.615773 <br/><br/>
 ![Result1](https://github.com/shazaalqays/Divide-and-Conquer-in-C/blob/main/images/3_points.jpg)<br/><br/>
